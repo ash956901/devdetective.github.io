@@ -102,7 +102,9 @@ async function getUser(username){
  
   catch(e){
    alert("No user found with the entered username");
-  
+   repoData.innerText="";
+   followData.innerText="";
+   followingData.innerText="";
   }
 }
 
