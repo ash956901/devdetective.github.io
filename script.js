@@ -19,7 +19,7 @@ const cd=document.querySelector("[companyData]");
 
 
 //Default variables
-const initName="thepranaygupta";
+const initName="ash956901";
 getUser(initName);
 
 //eventListeners
