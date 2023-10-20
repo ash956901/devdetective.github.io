@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Detective</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!--Wrapper-->
+  <div class="wrapper">
+
+    <!--Container-->
+    <div class="container">
+      <!--Header-->
+      <div class="header">
+        <h2>DevDetective</h2>
+        <button class="dark active" btnDark>DARK <img src="./assets/images/moon-icon.svg" alt=""></button>
+        <button class="light" btnLight>LIGHT <img src="./assets/images/sun-icon.svg" alt=""></button>
+      </div>
+
+
+      <!--Search Form-->
+      <form autocomplete="off"  action="" class="searchForm">
+        <div class="searchBar">
+          <!--Search Icon-->
+        <label for="user"><img src="./assets/images/search-icon.svg" alt=""></label>
+        <!--Search Bar-->
+        <input type="search" id="user" placeholder="Enter a GitHub username..." search>
+        </div>
+
+        <!--Search Button-->
+        <button type="submit" searchBtn>Search</button>
+        
+      </form>
+
+      <!--Main Content-->
+      <div class="mainContent">
+       
+        <!--Profile Info-->
+        <div profile-info-container>
+         
+          <!--userInfo-->
+          <div class="userInfo">
+               <!--Profile pic-->
+           <img class="dp" src="" alt="" displayPic loading="lazy"> 
+            <div class="nameLink">
+              <h2 userName></h2>
+              <a href="" target="_blank" userLink></a>
+            </div>
+            <!--Date-->
+            <div class="date">Joined<span joinDate> 05 May 2020</span></div>
+
+          </div>
+
+        
+
+          <!--Description Para-->
+          <p desc></p>
+
+          <!--Stats Box-->
+          <div class="Stats">
+            <!--Repos-->
+            <div class="Box">
+              <p class="statsHead">Repos</p>
+              <h2 repoData></h2>
+            </div>
+
+            <!--Followers-->
+            <div class="Box">
+              <p class="statsHead">Followers</p>
+              <h2 followData></h2>
+            </div>
+
+            <!--Following-->
+            <div class="Box">
+              <p class="statsHead">Following</p>
+              <h2 followingData></h2>
+            </div>
+          </div>
+
+          <!--Socials-->
+
+          <div class="socials">
+
+            <div class="gridBox">
+              <img src="./assets/images/location-icon.svg" alt="">
+              <span locationData></span>
+            </div>
+
+            <div class="gridBox  biolink">
+              <img src="./assets/images/website-icon.svg" alt="">
+              <a href="" bioData></a>
+            </div>
+
+            <div class="gridBox">
+              <img src="./assets/images/twitter-icon.svg" alt="">
+              <a href="" twitterLink></a>
+            </div>
+
+            <div class="gridBox ">
+              <img src="./assets/images/company-icon.svg" alt="">
+              <span companyData></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
