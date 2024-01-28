@@ -39,7 +39,8 @@ Feel free to use this project as a template for your own personal website. Custo
 
 ## Preview
 
-![DevDetective Preview](path/to/your/preview/image.png)
+<a href="https://ibb.co/3CkwFFk"><img src="https://i.ibb.co/6WN2ttN/dd2.png" alt="dd2" border="0"></a>
+<a href="https://ibb.co/SVGrsRc"><img src="https://i.ibb.co/frLv149/dd1.png" alt="dd1" border="0"></a>
 
 ## Contributing
 
