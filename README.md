@@ -1,6 +1,6 @@
 # DevDetective - Personal Website Project
 
-Welcome to DevDetective, a personal website project that showcases GitHub user information.
+Welcome to DevDetective, Be A Detective And Find Any Developer On GitHub!
 
 ## Table of Contents
 
